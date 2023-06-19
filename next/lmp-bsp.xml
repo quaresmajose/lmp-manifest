@@ -15,6 +15,6 @@
   <project name="meta-yocto" path="layers/meta-yocto" revision="master"/>
   <project name="meta-xilinx" path="layers/meta-xilinx" remote="quaresmajose" revision="kirkstone-next-lmp"/>
   <project name="meta-xilinx-tools" path="layers/meta-xilinx-tools" remote="quaresmajose" revision="kirkstone-next-lmp"/>
-  <project name="meta-tegra" path="layers/meta-tegra" revision="master"/>
+  <project name="meta-tegra" path="layers/meta-tegra" remote="quaresmajose" revision="next"/>
   <project name="meta-ti" path="layers/meta-ti" revision="master"/>
 </manifest>
