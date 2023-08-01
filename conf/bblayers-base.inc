@@ -21,3 +21,6 @@ BASELAYERS = " \
 
 BASELAYERS:remove = "${OEROOT}/layers/meta-lts-mixins-go"
 BASELAYERS:remove = "${OEROOT}/layers/meta-lts-mixins-rust"
+
+# 7332b594 recipes-bsp: Add u-boot-xlnx scripts for Xen support
+BBMASK:append = " /meta-virtualization/dynamic-layers/xilinx/recipes-bsp/u-boot/u-boot-xlnx-scr.bbappend"
