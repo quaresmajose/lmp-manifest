@@ -7,7 +7,7 @@
   <default remote="lmp-mirrors" revision="master" sync-j="4"/>
 
   <project name="meta-arm" path="layers/meta-arm" revision="master"/>
-  <project name="meta-freescale" path="layers/meta-freescale" revision="master"/>
+  <project name="meta-freescale" path="layers/meta-freescale" remote="quaresmajose" revision="next"/>
   <project name="meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" revision="master"/>
   <project name="meta-intel" path="layers/meta-intel" revision="master"/>
   <project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="master"/>
