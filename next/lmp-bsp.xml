@@ -5,8 +5,8 @@
 
   <default remote="lmp-mirrors" revision="master" sync-j="4"/>
 
-  <project name="meta-arm" path="layers/meta-arm" revision="master"/>
-  <project name="meta-intel" path="layers/meta-intel" revision="master"/>
-  <project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="master"/>
-  <project name="meta-yocto" path="layers/meta-yocto" revision="master"/>
+  <project name="meta-arm" path="layers/meta-arm" revision="scarthgap"/>
+  <project name="meta-intel" path="layers/meta-intel" revision="scarthgap"/>
+  <project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="scarthgap"/>
+  <project name="meta-yocto" path="layers/meta-yocto" revision="scarthgap"/>
 </manifest>
