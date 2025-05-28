@@ -2,15 +2,16 @@
 <manifest>
   <remote fetch="https://github.com/foundriesio" name="fio"/>
   <remote fetch="https://github.com/lmp-mirrors" name="lmp-mirrors"/>
+  <remote fetch="https://github.com/quaresmajose" name="quaresmajose"/>
 
   <default remote="lmp-mirrors" revision="master" sync-j="4"/>
 
-  <project name="meta-arm" path="layers/meta-arm" revision="8e0f8af90fefb03f08cd2228cde7a89902a6b37c"/>
-  <project name="meta-freescale" path="layers/meta-freescale" revision="dd3733cd91f5c85db83e49edeb3c644f424b7c7a"/>
-  <project name="meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d"/>
-  <project name="meta-intel" path="layers/meta-intel" revision="38e75c8c1059e5f37659c140c010eaa203238fd2"/>
-  <project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="3b27c95c163a042f8056066ec3d27edfcc42da7f"/>
-  <project name="meta-yocto" path="layers/meta-yocto" revision="7f1be5a930554ea5036d2c806aa752ae0b2de826"/>
-  <project name="meta-tegra" path="layers/meta-tegra" revision="6972d5620f1d8e0e30ef381acced5ebe384e739e"/>
-  <project name="meta-ti" path="layers/meta-ti" revision="71f4340b0ba3b50e2a51875df3a3e020e92b5b40"/>
+  <project name="meta-arm" path="layers/meta-arm" revision="scarthgap"/>
+  <project name="meta-freescale" path="layers/meta-freescale" revision="scarthgap"/>
+  <project name="meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" revision="scarthgap"/>
+  <project name="meta-intel" path="layers/meta-intel" revision="scarthgap"/>
+  <project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="scarthgap"/>
+  <project name="meta-yocto" path="layers/meta-yocto" revision="scarthgap"/>
+  <project name="meta-tegra" path="layers/meta-tegra" revision="scarthgap-l4t-r35.x"/>
+  <project name="meta-ti" path="layers/meta-ti" revision="scarthgap"/>
 </manifest>
